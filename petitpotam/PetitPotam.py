@@ -17,7 +17,7 @@ from impacket.dcerpc.v5.rpcrt import DCERPCException, RPC_C_AUTHN_WINNT, RPC_C_A
 from impacket.uuid import uuidtup_to_bin
 
 
-show_banner = '''
+show_banner = r'''
                                                                                                
               ___            _        _      _        ___            _                     
              | _ \   ___    | |_     (_)    | |_     | _ \   ___    | |_    __ _    _ __   
