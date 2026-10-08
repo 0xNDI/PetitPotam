@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "petitpotam"
+version = "0.1.0"
+description = "PoC tool for MS-EFSRPC EfsRpcOpenFileRaw and other functions abuse to coerce NTLM authentication from a remote host"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "impacket",
+]
+
+[project.scripts]
+petitpotam = "petitpotam.PetitPotam:main"
